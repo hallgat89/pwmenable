@@ -16,15 +16,6 @@ REVISION=$(echo '$Revision: 6243 $' | cut -d' ' -f2)
 REVDATE=$(echo '$Date: 2014-03-20 11:23:35 +0100 (jeu. 20 mars 2014) $' | cut -d' ' -f2)
 PIDFILE="/var/run/fancontrol.pid"
 
-if [ -f "$PIDFILE" ]
-then
-	echo "File $PIDFILE exists. This typically means that the"
-	echo "fancontrol deamon is running. You should stop it before running pwmconfig."
-	echo "If you are certain that fancontrol is not running, then you can delete"
-	echo "$PIDFILE manually."
-	exit 1
-fi
-
 if [ "`id -u`" != "0" ]
 then
 	echo "You need to be root to run this script."
