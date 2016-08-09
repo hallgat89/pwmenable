@@ -12,9 +12,6 @@
 # sudo ln -s /etc/init.d/pwmenable.sh /etc/rc2.d/S99pwmenable.sh
 #
 
-REVISION=$(echo '$Revision: 6243 $' | cut -d' ' -f2)
-REVDATE=$(echo '$Date: 2014-03-20 11:23:35 +0100 (jeu. 20 mars 2014) $' | cut -d' ' -f2)
-PIDFILE="/var/run/fancontrol.pid"
 
 if [ "`id -u`" != "0" ]
 then
