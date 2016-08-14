@@ -10,11 +10,11 @@
 # 3. Once that is done create a symbolic link in the run level directory you would like to use, 
 # for example if you wanted to run a program in the graphical runlevel 2, the default runlevel for Ubuntu, you would place it in the /etc/rc2.d
 # SXX-is the launch priority
-# sudo ln -s /etc/init.d/pwmenable.sh /etc/rc2.d/S99pwmenable.sh
+# sudo ln -s /etc/init.d/dynamicpwm.sh /etc/rc2.d/S99dynamicpwm.sh
 #
 
 ### BEGIN INIT INFO
-# Provides:          pwmenable.sh
+# Provides:          dynamicpwm.sh
 # Required-Start:    $local_fs $syslog $remote_fs dbus
 # Required-Stop:     $local_fs $syslog $remote_fs
 # Default-Start:     2 3 4 5
