@@ -1,6 +1,6 @@
 # pwmenable
 Scripts to control the fans of my Radeon R9 380X Nitro <br>
 <br>
-This script is the result of removing many stuff from pwmconfig.<br>
-It won't do anything besides activating the fans of my Tonga XT / Amethyst XT [Radeon R9 380X / R9 M295X]
-One script sets the pwm to max, the other one controls it based on 2 temperature values.
+Only one of them must be used. They can run as a service. (instruction in the files)<br>
+<br>
+NOTE: These files are configured for my computer, it will ruin yours if you don't check everything!!!
