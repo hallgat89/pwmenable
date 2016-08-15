@@ -1,0 +1,13 @@
+[Unit]
+Description=Set pwm 137 for Radeon R9 380X
+After=syslog.target
+
+[Service]
+ExecStart=/etc/init.d/dynamicpwm
+Type=forking
+KillMode=process
+Restart=on-failure
+RestartSec=42s
+
+[Install]
+WantedBy=multi-user.target
