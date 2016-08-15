@@ -6,16 +6,16 @@
 # If you use it without thinking, and your computer melts, it is your own fault.
 #
 # 1. Place the script in the /etc/init.d directory
-# 2. chmod 755 myscript
+# 2. chmod 755 dynamicpwm
 # 3. Once that is done create a symbolic link in the run level directory you would like to use, 
 # for example if you wanted to run a program in the graphical runlevel 2, the default runlevel for Ubuntu, you would place it in the /etc/rc2.d
 # SXX-is the launch priority
-# sudo ln -s /etc/init.d/pwmenable.sh /etc/rc2.d/S99pwmenable.sh
+# sudo ln -s /etc/init.d/dynamicpwm /etc/rc2.d/S99dynamicpwm
 #
 
 ### BEGIN INIT INFO
-# Provides:          pwmenable.sh
-# Required-Start:    $local_fs $syslog $remote_fs dbus
+# Provides:          dynamicpwm
+# Required-Start:    $local_fs $syslog $remote_fs
 # Required-Stop:     $local_fs $syslog $remote_fs
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
