@@ -113,7 +113,7 @@ echo
 
 TEMPSTATUS='unknown'
 LASTTEMP=0
-NEWPWM=0
+NEWPWM=5
 
 while [ 1 -eq 1 ]
 do
