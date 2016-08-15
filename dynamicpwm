@@ -13,12 +13,12 @@
 
 ### BEGIN INIT INFO
 # Provides:          dynamicpwm
-# Required-Start:    $local_fs $syslog $remote_fs
-# Required-Stop:     $local_fs $syslog $remote_fs
+# Required-Start:    $local_fs 
+# Required-Stop:     $local_fs 
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
-# Short-Description: Set pwm 137 for Radeon R9 380X
-# Description:       Set pwm 137 for Radeon R9 380X
+# Short-Description: Set pwm for Radeon R9 380X
+# Description:       Set pwm for Radeon R9 380X
 ### END INIT INFO
 
 
