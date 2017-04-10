@@ -1,4 +1,4 @@
-# pwmenable
+# pwmenable (outdated - the card works out of the box now)
 Scripts to control the fans of my Radeon R9 380X Nitro <br>
 <br>
 Only one of them must be used. They can run as a service. (instruction in the files)<br>
